@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=BitInputStream
+comment0.text=\r\n\ This\ class\ was\ taken\ from\ \r\n\ https\://github.com/nayuki/Arithmetic-Coding/blob/master/src/nayuki/arithcode/BitInputStream.java\r\n\ by\ user\ Nayuki.\r\n\ \r\n\ Changes\ were\ made\ to\ remove\ unnecessary\ methods.\r\n\ Reason\ for\ use\ was\ to\ avoid\ implementing\ my\ own\ single\ bit\ reading\ input\ stream.\r\n\ While\ this\ would\ have\ been\ possible,\ this\ code\ was\ publicly\ available\ and\ correct\r\n\ reference\ to\ the\ original\ author\ is\ being\ given\ here\ and\ in\ the\ report.\r\n\ \r\n
+comment1.params=in
+comment1.target=BitInputStream(java.io.InputStream)
+comment2.params=
+comment2.target=int\ read()
+comment3.params=
+comment3.target=void\ close()
+numComments=4

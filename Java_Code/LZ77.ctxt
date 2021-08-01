@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=LZ77
+comment0.text=\r\n\ Class\ for\ performing\ LZ77\ compression/decompression\ using\ text\ IO\r\n\r\n
+comment1.params=
+comment1.target=LZ77()
+comment2.params=buffSize
+comment2.target=LZ77(int)
+comment3.params=
+comment3.target=void\ trimSearchBuffer()
+comment4.params=infile
+comment4.target=void\ unCompress(java.lang.String)
+comment4.text=\r\n\ Uncompress\ method\r\n\r\n\ @param\ infile\ the\ name\ of\ the\ file\ to\ uncompress\ -\ automatically\ appends\r\n\ a\ ".lz77"\ extension\ to\ the\ supplied\ filename\r\n\ @exception\ IOException\ if\ an\ error\ occurs\ during\ file\ processing\r\n
+comment5.params=infile
+comment5.target=void\ compress(java.lang.String)
+comment5.text=\r\n\ Compress\ method\r\n\r\n\ @param\ infile\ the\ name\ of\ the\ file\ to\ compress.\ Automatically\ appends\r\n\ a\ ".lz77"\ extension\ to\ infile\ name\ when\ creating\ the\ output\ file\r\n\ @exception\ IOException\ if\ an\ error\ occurs\r\n
+numComments=6

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Decoder
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=in\ out
+comment2.target=Decoder(java.lang.String,\ java.lang.String)
+comment3.params=tree
+comment3.target=void\ decode(Tree)
+comment4.params=in
+comment4.target=int\ readByte(BitInputStream)
+numComments=5

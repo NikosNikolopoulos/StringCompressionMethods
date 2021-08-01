@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=HuffmanNode
+comment0.text=\r\n\ Node\ class\ is\ the\ basic\ structure\ \r\n\ of\ each\ node\ present\ in\ the\ Huffman-tree.\ \r\n\ @author\ Nikos\ Nikolopoulos\r\n\ @version\ 09/12/2018\r\n
+comment1.params=
+comment1.target=HuffmanNode()
+comment2.params=l
+comment2.target=void\ setLeftHuffmanNode(HuffmanNode)
+comment3.params=r
+comment3.target=void\ setRightHuffmanNode(HuffmanNode)
+comment4.params=data
+comment4.target=void\ setDataHuffmanNode(int)
+comment5.params=c
+comment5.target=void\ setCharHuffmanNode(char)
+comment6.params=index
+comment6.target=void\ setIndexHuffmanNode(int)
+comment7.params=n
+comment7.target=HuffmanNode\ getParent(HuffmanNode)
+comment8.params=node
+comment8.target=boolean\ isLeaf(HuffmanNode)
+numComments=9

@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=BitByteOutputStream
+comment0.text=\r\n\ Write\ individual\ bits\ to\ an\ output\ stream,\ or\ write\ whole\ bytes.\r\n\ \r\n\ Bits\ are\ stored\ in\ a\ buffer\ until\ the\ buffer\ contains\ 8\ bits,\ then\r\n\ it\ is\ written\ to\ the\ output\ stream.\r\n\ \r\n\ Class\ was\ modified\ to\ suit\ the\ style\ of\ BitInputStream.\r\n\ \r\n\ @author\ 1300002022\r\n\r\n
+comment1.params=out
+comment1.target=BitByteOutputStream(java.io.OutputStream)
+comment2.params=bit
+comment2.target=void\ writeBit(boolean)
+comment2.text=\r\n\ Write\ a\ bit\ into\ the\ buffer,\ unless\ buffer\ is\ full.\r\n\ If\ full\ then\ flush\ the\ buffer.\r\n
+comment3.params=x
+comment3.target=void\ writeByte(int)
+comment3.text=\r\n\ Write\ the\ value\ x\ to\ output\ stream.\ \r\n\ \r\n\ If\ buffer\ is\ empty,\ then\ just\ write\ x\ straight\r\n\ to\ the\ output.\ Otherwise,\ write\ the\ contents\ of\r\n\ buffer\ to\ output\ as\ well\ as\ the\ first\ n\ bits\ of\ x\r\n\ then\ fill\ buffer\ with\ remaining\ bits\ of\ x.\r\n\ \r\n\ @param\ x\ -\ byte\ to\ write\ to\ output.\r\n
+comment4.params=
+comment4.target=void\ flush()
+comment4.text=\r\n\ Write\ the\ buffer\ to\ the\ output\ stream.\r\n\ \r\n\ If\ buffer\ is\ not\ full\ (8\ bits)\ then\ fill\ it\ in\ \\\r\n\ with\ trailing\ 0s\ and\ write\ to\ output.\r\n\ \r\n\ Then\ clear\ buffer\ and\ reset.\r\n
+comment5.params=
+comment5.target=void\ close()
+numComments=6

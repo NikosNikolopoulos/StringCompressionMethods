@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Encoder
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=in\ out
+comment2.target=Encoder(java.lang.String,\ java.lang.String)
+comment3.params=tree
+comment3.target=void\ encode(Tree)
+comment4.params=root\ s
+comment4.target=void\ printCode(Node,\ java.lang.String)
+numComments=5
