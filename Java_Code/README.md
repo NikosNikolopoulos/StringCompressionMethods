@@ -4,6 +4,7 @@ Huffman encoding is achieved by constructing the `Huffman Tree` which has proper
 ## Self-Adaptive Huffman Algorithm 
 Regarding the dynamic self-adaptive Huffman algorithm, the following flowcharts make it easy to create classes and methods for text encoding and decoding. That is, the flowcharts adequately describe the dynamic Huffman algorithm as well as partition the encoding problem into smaller tractable subproblems. In addition, the dynamic Huffman algorithm has the property of generating a Huffman Tree on each character-symbol it encounters while scanning the text.
 
-![Encoding & decoding procedure](../Report/EncodingDecodingProcedure.png)
-
+<p float="left">
+![Encoding & decoding procedure](../Report/EncodingDecodingProcedure.png) 
 ![Update procedure](../Report/UpdateProcedure.png)
+</p>
