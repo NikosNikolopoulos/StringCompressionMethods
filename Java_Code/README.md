@@ -10,5 +10,5 @@ Regarding the dynamic self-adaptive Huffman algorithm, the following flowcharts 
 
 <p float="left">
 <img src="../Report/EncodingDecodingProcedure.png" width="450"> 
-<img src="../Report/UpdateProcedure.png" width="400"> 
+<img src="../Report/UpdateProcedure.png" width="410"> 
 </p>
