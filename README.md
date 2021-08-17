@@ -7,3 +7,4 @@ The tasks listed bellow are tackled using [BlueJ](https://bluej.org/) (an integr
     <LI>Write an encoder and decoder in Java for the LZ77 method and [optionally] for the LZ78 and LZW methods.</LI>
     <LI>Experimentally study the time required to run the above algorithms and their compression performance.</LI>
   </OL>
+A more detailed markdown file can be found under the [Java_Code](https://github.com/NikosNikolopoulos/StringCompressionMethods/tree/main/Java_Code) directory.
